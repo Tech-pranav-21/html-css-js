@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form><h1>Fill this form</h1>
+    <div> 
+      <label id="text">  Enter your name :- <input type="text" placeholder="Enter full name" id="text"></label>
+    </div>
+
+    <div> Birth date :- 
+     <label id="birth">   <input type="date" required id="birth"></label>
+    </div>
+
+
+   <div>Gender
+
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label>
+
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label>
+   </div>
+    
+
+
+    <div>Enter your Email :-
+      <label id="ema">  <input type="email" placeholder="xxx@gmail.com" id="ema">
+    </div>
+
+
+    <div>Address :-
+        <textarea id="address" name="address" rows="4" cols="40"></textarea>
+    </div>
+
+    <div>
+    <label for="course"> Select course :-
+        <select name="Course" id="course" >
+            <option value="Computer Engineering">Computer Engineering</option>
+            <option value="Information Technology">Information Technology</option>
+            <option value="Mechanical Engineering">Mechanical Engineering</option>
+            <option value="Electrical Engineering">Electrical Engineering</option>
+            <option value="Civil Enfgineering">Civil Enfgineering</option>
+        </select>
+    </label>
+    </div>
+
+    <div>Select Photo :- 
+    <label id ="file">
+        <input type="file" id = "files">
+    </label>
+    </div>
+
+    <div>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+    </div>
+    </form>
+</body>
+</html>
