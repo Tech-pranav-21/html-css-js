@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Form</title>
+</head>
+<body>
+    <form>
+    <div>
+    <label for="name">Enter Full Name :-</label>
+    <input type="text" id="name" name="name" placeholder="Full Name" required>
+    </div>
+
+    <div>
+    <label for="age">Enter Age :- </label>
+    <input type="number" id="age" name="age" required>
+    </div>
+    
+    <div id="gender">
+        <label>Gender</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        </div>
+
+    <div>
+    <label for="plans">Membership Plans</label>
+    <select name="Membership Plans" id="plans">
+        <option value="Basic Plan">Basic Plan</option>
+        <option value="Standard Plan">Standard Plan</option>
+        <option value="Premium Plan">Premium Plan</option>
+    </select>
+    </div>
+    
+    <input type="checkbox" id="trainer" name="trainer">
+    <label for="trainer">Personal Trainer</label>
+
+    <div>
+        <label for="Goals">Fitness Goals :- </label>
+        <textarea id="Goals" cols="10" rows="2" name="Goals"></textarea>
+    </div>
+    
+    <input type="submit" value="Submit" id="Submit" name="Submit">
+    <input type="reset" value="Reset" id="Reset" name="Reset">
+
+
+    </form>
+</body>
+</html>
