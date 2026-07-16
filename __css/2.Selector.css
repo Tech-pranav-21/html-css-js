@@ -1,0 +1,48 @@
+/*Group Selector*/
+*{
+    padding: 0%;
+    margin: 3%;
+
+}
+
+/*Element Selector*/
+h1{
+    background-color: aqua;
+    color: purple;
+}
+
+/* ID Selector*/
+#info{
+    font-style: italic;
+    text-align: center;
+    color: blue;
+    font-size: large;
+}
+
+
+/* Class Selector*/
+.class{
+    background-color: palegreen;
+    color: red;
+}
+
+
+/* Group Selector*/
+h2, b{
+    color: orangered;
+}
+
+
+/* Children Selector */
+div{
+    background-color: dodgerblue;
+}
+div > p{
+    color: rgb(60, 248, 8);
+}
+
+
+/*Decendent Selector*/
+div p{
+    color: rgb(60, 248, 8);
+}
